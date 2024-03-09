@@ -37,8 +37,10 @@ Once all of the players are found and the game begins, the input bar is availabl
 Once the race is over, a popup appears and displays the WPM. The script will find that element, extract the value, and display it to the user of the script to show them how the script performed. 
 
 
+![WPM](/images/typing-WPM-display.jpeg)
 
-
+<br>
+<br>
 
 ## How to adjust the speed
 The typing speed is determined by how long the script waits before entering the next character of the prompt. At the top of the script, there is a variable called 'time_between_inputs'. Set this value to a specific time (in seconds) that you want the script to wait before typing another character. 

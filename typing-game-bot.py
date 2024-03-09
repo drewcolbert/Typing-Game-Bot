@@ -59,7 +59,7 @@ if len(text) == 3:
 
 # when the list is length of 2 (or maybe 1?), just combine them wth no space
 else:
-    combined = "".join(text)
+    combined = " ".join(text)
 
 # there is a short wait time where the input is not clickable, since this is a race, they want everyone to start at the same time
 # we find the input bar element, and then we wait for it to be clickable before we actually use it
@@ -79,5 +79,4 @@ print(f"Final Result: {result.text}")
 
 driver.close()
 
-# ! breaks when the prompt starts with 'I' and is only split into 2 span elements ----- EXAMPLE: "I wish" becomes "Iwish"
 # ! breaks when the beginning of the third element starts with ',' ------ EXAMPLE: "Today," becomes "Today ,"
